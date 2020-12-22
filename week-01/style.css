@@ -1,0 +1,26 @@
+body{
+    width: 2000px;
+}
+#header{
+
+    height: 600px;
+    background-color: blue;
+}
+img{
+    height: 600px;
+}
+#courses{
+    height: 600px;
+    background-color: aqua;
+}
+
+#top-courses{
+height: 550px;
+background-color: brown;
+}
+
+#Feedbacks{
+    height: 400px;
+    background-color: blueviolet;
+}
+
