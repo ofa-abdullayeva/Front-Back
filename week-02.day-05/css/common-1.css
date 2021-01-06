@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+.container-full{
+    width: 100%;
+    
+}
+.row{
+display: flex;
+justify-content: space-between;
+
+}
+[class^="col-"]{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.col-1{
+    width:calc((100/12)*1);
+
+}
+.col-2{
+    width:calc((100/12)*2);
+
+}
+.col-3{
+    width:calc((100/12)*3);
+
+}
+.col-4{
+    width:calc((100/12)*4);
+
+}
+.col-5{
+    width:calc((100/12)*5);
+
+}
+.col-6{
+    width:calc((100/12)*6);
+
+}
+.col-7{
+    width:calc((100/12)*7);
+
+}
+.col-8{
+    width:calc((100/12)*8);
+
+}
+.col-9{
+    width:calc((100/12)*9);
+
+}
+.col-10{
+    width:calc((100/12)*10);
+
+}
+.col-11{
+    width:calc((100/12)*11);
+
+}
+.col-12{
+    width:calc((100/12)*12);
+
+}
+
+.bg-main{
+    background-color: #F9E6DF ;
+    color:  black;
+}
+
+.bg-success{
+background-color: #F3F2F3 ;
+color: black;
+}
+
+.bg-warning{
+    background-color: #c2b599 ;
+    color: white ;
+}
+input[type=text],[type=email]{
+width: 100%;
+padding: 12px 20px;
+margin: 10px 0;
+display: inline-block;
+box-sizing: border-box;
+
+}
+
+button[type=submit]{
+    width: ;
+    padding: 12px 20px;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+button[type=submit]:hover{
+    background-color: #c2b599;
+}
