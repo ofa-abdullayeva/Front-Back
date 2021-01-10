@@ -1,0 +1,57 @@
+body, p, h1, h2, h3, h4, h5, h6, div, ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+}
+
+.nav-link .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-link .check a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.nav-link .check :hover {
+  color: #E2797E;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-link ul {
+  list-style: none;
+}
+
+.nav-link li {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.nav-link :hover {
+  color: #E2797E;
+}
+/*# sourceMappingURL=style.css.map */

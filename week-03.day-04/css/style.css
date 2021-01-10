@@ -18,9 +18,6 @@ font-size: 14px;
 
 .nav-link{
    
-    display: flex;
-    justify-content: space-around;
-    
     
 }
 
@@ -30,9 +27,9 @@ font-size: 14px;
 
 .nav-link li{
     list-style: none;
-    float: left;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
+    display: inline-block;
     
  }
  .nav-link li:hover{
