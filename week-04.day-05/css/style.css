@@ -1,0 +1,136 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+#navbar {
+  background-color: #F1F1F1;
+}
+
+#navbar .nav-first .nav-header {
+  font-size: 12px;
+  height: 45px;
+  margin: 0px;
+  padding: 10px 0px;
+  border-bottom: 0.5px solid #d5d5d5;
+}
+
+#navbar .nav-first .nav-header .nav-number .phone-icon {
+  margin: 0px 5px;
+}
+
+#navbar .nav-first .nav-header .nav-number .number-muted {
+  color: #888888;
+}
+
+#navbar .nav-first .nav-header .check a {
+  text-decoration: none;
+  color: #888888;
+  padding: 0px 18px;
+  position: relative;
+  border-right: 1px solid #d5d5d5;
+}
+
+#navbar .nav-first .nav-header .check a:hover {
+  color: #E2797E;
+}
+
+#navbar .nav-first .nav-main {
+  padding: 22px 0px;
+}
+
+#navbar .nav-first .nav-main .nav-link {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#navbar .nav-first .nav-main .nav-link ul {
+  list-style: none;
+}
+
+#navbar .nav-first .nav-main .nav-link li {
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#navbar .nav-first .nav-main .nav-link a {
+  margin: 0px;
+  text-decoration: none;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 21px 17px;
+}
+
+#navbar .nav-first .nav-main .nav-link :hover {
+  color: #E2797E;
+}
+
+#navbar .nav-first .nav-main .icon-gift .offer-image {
+  display: inline-block;
+  vertical-align: top;
+  background-size: 35px;
+  font-size: 40px;
+  margin-right: 8px;
+}
+
+#navbar .nav-first .nav-main .icon-gift-item .offer-title {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+#navbar .nav-first .nav-main .icon-gift-item .offer-description {
+  font-size: 11px;
+  font-weight: 400;
+  color: #888888;
+}
+
+#navbar .nav-first .nav-main .icon-bag .offer-image {
+  display: inline-block;
+  vertical-align: top;
+  background-size: 35px;
+  font-size: 40px;
+  margin-right: 8px;
+}
+
+#navbar .nav-first .nav-main .icon-bag-item .offer-title {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+#navbar .nav-first .nav-main .icon-bag-item .offer-description {
+  font-size: 11px;
+  font-weight: 400;
+  color: #888888;
+}
+/*# sourceMappingURL=style.css.map */
