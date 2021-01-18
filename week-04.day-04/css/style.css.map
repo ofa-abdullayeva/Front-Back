@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGKA,AAAA,IAAI;AACJ,IAAI;AACJ,CAAC;AACD,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,GAAG;AACH,EAAE;AACF,EAAE,CAAC;EACC,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACf;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,uCAAuC;EACpD,gBAAgB,EArBN,OAAO;CAsBpB;;ACxBD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/pages/_pages.scss",
+        "../sass/pages/homepages/_homepages.scss",
+        "../sass/pages/homepages/_navbar.scss",
+        "../sass/pages/homepages/_slider.scss",
+        "../sass/pages/homepages/_main.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

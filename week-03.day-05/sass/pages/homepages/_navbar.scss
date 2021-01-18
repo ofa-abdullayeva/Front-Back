@@ -21,8 +21,8 @@ $success-color: #F1F1F1 ;
         display: flex;
         justify-content: center;
         a{
-       text-decoration: none;
-       color: $danger-color;
+        text-decoration: none;
+        color: $danger-color;
       }
 
       :hover{
@@ -62,6 +62,14 @@ $success-color: #F1F1F1 ;
     :hover{
         color: $primary-color ;
     }
+}
+
+.gift-icon{
+    display: inline-block;
+    width: 30px;
+    span{
+        
+   
 }
 
 .navbar-footer{

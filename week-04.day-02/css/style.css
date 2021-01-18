@@ -1,1 +1,220 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1200px;
+}
+
+#navbar {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar .item-1 {
+  background-color: #F1F1F1;
+}
+
+#navbar .item-2 {
+  background-color: #E2797E;
+}
+
+#navbar .navbar-header {
+  height: 45px;
+  margin: 0px;
+  padding: 10px 0px;
+  border-right: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+}
+
+#navbar .navbar-header .number-item .phone-icon {
+  margin: 0px 5px;
+}
+
+#navbar .navbar-header .number-item .number {
+  color: #888888;
+}
+
+#navbar .navbar-header .number-item .number a {
+  border-right: 1px solid #888888;
+}
+
+#navbar .navbar-body {
+  padding: 22px 0px;
+}
+
+#navbar .navbar-body .nav-link {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#navbar .navbar-body .nav-link ul {
+  list-style: none;
+}
+
+#navbar .navbar-body .nav-link li {
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#navbar .navbar-body .nav-link a {
+  margin: 0px;
+  text-decoration: none;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 21px 17px;
+}
+
+#navbar .navbar-body .nav-link :hover {
+  color: #E2797E;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .offer-image {
+  display: inline-block;
+  vertical-align: top;
+  background-size: 35px;
+  height: 45px;
+  width: 45px;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .offer-title {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .offer-title .offer-description {
+  font-size: 11px;
+  font-weight: 400;
+  color: #888888;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .offer-title .gift-muted {
+  font-size: 11px;
+  color: #888888;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag {
+  font-size: 35px;
+  color: #222222;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag a {
+  color: #222222;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag :hover {
+  color: #E2797E;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer {
+  height: 70px;
+  background-color: #E2797E;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer .box-category {
+  margin: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  background: #222222;
+  color: #ffffff;
+  background-position: right 30px center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding: 12px 60px 12px 30px;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer .input-group {
+  margin: 10px;
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+  width: 100%;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer .form-control {
+  background: #FFFFFF;
+  margin: 0;
+  color: #000000;
+  padding: 10px 130px 10px 10px;
+  vertical-align: middle;
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer .input-group-text {
+  position: absolute;
+  right: 0px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 120px;
+  height: 44px;
+  line-height: 13px;
+  top: 0;
+  bottom: auto;
+  text-transform: capitalize;
+  background: #222222;
+  color: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+#navbar .navbar-body .nav-link .icon-gift .icon-bag .navbar-footer .link-toggle {
+  padding: 0px 15px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.rs-slider {
+  width: 809;
+  height: 481;
+  background-color: aqua;
+}
+/*# sourceMappingURL=style.css.map */

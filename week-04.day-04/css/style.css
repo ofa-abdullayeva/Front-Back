@@ -1,0 +1,27 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.rs-slider {
+  width: 809;
+  height: 481;
+  background-color: aqua;
+}
+/*# sourceMappingURL=style.css.map */

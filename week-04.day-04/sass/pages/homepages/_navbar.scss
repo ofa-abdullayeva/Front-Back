@@ -1,0 +1,29 @@
+$primary-color: #E2797E;
+$danger-color: #222222;
+$light-color: #FFFFFF;
+$success-color: #F1F1F1;
+$muted-color: #888888;
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: $light-color;
+}
+
+#navbar{
+    
+}
