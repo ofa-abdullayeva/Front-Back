@@ -1,0 +1,45 @@
+html {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: $light-color;
+}
+
+$primary-color: #E2797E;
+$danger-color: #222222;
+$light-color: #FFFFFF;
+$success-color: #F1F1F1;
+$muted-color: #888888;
+
+
+
+
+/**Utilities**/
+
+.bg {
+    &-dark{
+        background-color: $danger-color;
+    }
+    &-light{
+        background-color: $light-color;
+    }
+    &-primary{
+        background-color: $primary-color;
+    }
+    &-success{
+        background-color: $success-color;
+    }
+
+}
+
+.ml{
+    &-2{
+        margin-left: 2rem;
+    }
+}
+
+.br{
+    border-right: 1px solid lighten($muted-color,30%) ;
+}
+
+/**Mixin**/
+
+

@@ -1,0 +1,22 @@
+#nav{
+    .nav-header{
+        background-color:$success-color ;
+        
+    }
+    .nav-body{
+    background-color: $success-color ;
+    .text-pink{
+        color:$primary-color;
+    }
+    }
+    .nav-bottom{
+      background-color: $primary-color;
+       padding: 10px;
+    
+         .btn{
+         color: $light-color;
+         width: 280px;
+         }
+    
+    }
+}
