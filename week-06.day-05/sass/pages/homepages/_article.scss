@@ -1,0 +1,18 @@
+#article{
+  background-color: $primary-color;
+  .article-text{
+    h3{
+    font-size: 22px;
+    }
+    p{
+    font-size: 12px;
+    }
+  }
+  .form-control{
+    width: 420px;
+  }
+  .btn{
+    width: 120;
+  }
+ 
+}

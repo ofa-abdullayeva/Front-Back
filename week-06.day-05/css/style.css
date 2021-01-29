@@ -1,0 +1,153 @@
+html {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**Utilities**/
+.bg-dark {
+  background-color: #222222;
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.bg-primary {
+  background-color: #E2797E;
+}
+
+.bg-success {
+  background-color: #F1F1F1;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.br {
+  border-right: 1px solid #d5d5d5;
+}
+
+/**Mixin**/
+#nav .nav-header {
+  background-color: #F1F1F1;
+}
+
+#nav .nav-header .nav-link {
+  padding: 0px;
+}
+
+#nav .nav-body {
+  background-color: #F1F1F1;
+}
+
+#nav .nav-bottom {
+  background-color: #E2797E;
+  padding: 10px;
+}
+
+#nav .nav-bottom .btn-dark {
+  width: 250px;
+}
+
+#nav .nav-bottom .input-group-text {
+  width: 120px;
+}
+
+#header img {
+  width: 100%;
+  -o-object-fit: covers;
+     object-fit: covers;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#main .card-img {
+  position: relative;
+}
+
+#main .card-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main .card-img .card-img-text {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#main .card-img .card-img-text .text-1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#main .card-img .card-img-text .text-2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main .card-img .card-img-text .text-3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main .card-img .card-img-text a {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+#product .card-img-left a {
+  color: #222222;
+}
+
+#product .card-img-left:hover {
+  color: #E2797E;
+}
+
+#article {
+  background-color: #E2797E;
+}
+
+#article .article-text h3 {
+  font-size: 22px;
+}
+
+#article .article-text p {
+  font-size: 12px;
+}
+
+#article .form-control {
+  width: 420px;
+}
+
+#article .btn {
+  width: 120;
+}
+
+#footer {
+  background-color: #F1F1F1;
+}
+
+#footer h3 {
+  font-size: 16px;
+}
+
+#footer ul {
+  padding: 0px;
+}
+
+#footer ul li a {
+  font-size: 12px;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
