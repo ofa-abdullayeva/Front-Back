@@ -1,0 +1,21 @@
+#article{
+  background-color: $primary-color;
+  
+  .article-text{
+    h3{
+    font-size: 22px;
+    text-align: center;
+    }
+    p{
+    font-size: 12px;
+    text-align: center;
+    }
+  }
+  .form-control{
+    width: 75%;
+  }
+  .btn{
+    width: 120;
+  }
+ 
+}
