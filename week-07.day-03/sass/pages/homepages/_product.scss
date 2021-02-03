@@ -1,0 +1,20 @@
+#product{
+   
+    .card-img-left{
+        .card-link-item{
+            color: $danger-color;
+            
+        }
+        
+        .product-price{
+            del{
+                font-size: 13px;
+
+            }
+            b{
+                font-size: 18px;
+
+            }
+        }
+    }
+}

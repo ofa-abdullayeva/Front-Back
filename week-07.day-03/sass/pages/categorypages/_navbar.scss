@@ -1,0 +1,80 @@
+#nav{
+    .nav-header{
+        background-color:$success-color ;
+        padding: 10px 0px;
+        .contact-title{
+            span{
+                line-height: 24px;
+                letter-spacing: 0.5px;
+            }
+        }
+        .nav-link{
+            padding: 0px;
+            
+            li{
+                font-size: 12px;
+                
+                a{ 
+                   padding-right: 15px;
+                   padding-left: 15px;
+                   border-right: 1px solid #dee2e6;
+                }
+            }
+        }
+        
+    }
+    .nav-body{
+        height: 100px;
+        background-color: $success-color ;
+        .navbar-nav{
+            
+            .nav-item{
+                a{
+                    font-size: 13px;
+                    padding: 21px 17px;
+                    letter-spacing: 1px;
+                    margin: 0px;
+                    font-weight: 600;
+                    transition: 3s ease;
+                    
+                   
+                }
+            }
+        }
+        .icon{
+           font-size: 30px;
+           padding-right: 10px;
+        }
+        .nav-inner{
+           .title{
+               font-size: 13px;
+           }
+           .description{
+               font-size: 11px;
+           }
+        }
+  
+    }
+    .nav-bottom{
+        height: 60px;
+        background-color: $primary-color;
+        padding: 10px;
+        .btn-dark{
+           width: 250px;
+       }
+       .input-group-text{
+          width: 120px;
+          transition: 2s ease;
+          border-radius: none;
+          
+          &:hover{
+              background-color: $light-color;
+              border-color: $light-color;
+          }
+
+       }
+    
+        
+    
+    }
+}
