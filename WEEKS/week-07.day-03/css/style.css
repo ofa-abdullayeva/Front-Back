@@ -231,6 +231,29 @@ ul {
 
 a {
   text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  color: #E2797E;
+}
+
+.card .card-header {
+  background-color: #E2797E;
+}
+
+.card .card-body {
+  background-color: #F1F1F1;
+}
+
+.card .card-body a {
+  font-size: 12px;
+  line-height: 0.5px;
+  color: #888888;
+}
+
+.card .card-body a:hover {
+  color: #E2797E;
 }
 
 /**Utilities**/
@@ -288,11 +311,6 @@ a {
   background-color: #F1F1F1;
 }
 
-#nav .nav-body .navbar-nav .nav-item:hover {
-  font-size: 3em;
-  color: #E2797E;
-}
-
 #nav .nav-body .navbar-nav .nav-item a {
   font-size: 13px;
   padding: 21px 17px;
@@ -301,7 +319,6 @@ a {
   font-weight: 600;
   -webkit-transition: 3s ease;
   transition: 3s ease;
-  color: #222222;
 }
 
 #nav .nav-body .icon {

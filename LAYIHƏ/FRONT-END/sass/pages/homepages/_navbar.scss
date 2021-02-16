@@ -18,6 +18,9 @@
                    padding-right: 15px;
                    padding-left: 15px;
                    border-right: 1px solid #dee2e6;
+                   &:hover{
+                       color: red;
+                   }
                 }
             }
         }
@@ -29,10 +32,7 @@
         .navbar-nav{
             
             .nav-item{
-                 &:hover{
-                     font-size: 3em;
-                        color: $primary-color;
-                    }
+                
                 a{
                     font-size: 13px;
                     padding: 21px 17px;
@@ -41,7 +41,9 @@
                     font-weight: 600;
                     transition: 3s ease;
                     color: $danger-color;
-                   
+                    &:hover{
+                        color: $primary-color;
+                    }
                 }
             }
         }

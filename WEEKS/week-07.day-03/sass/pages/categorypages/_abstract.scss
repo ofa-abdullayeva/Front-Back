@@ -18,8 +18,30 @@ ul{
 }
 a{
     text-decoration: none;
+    color: $danger-color;
+    &:hover{
+        color: $primary-color;
+    }
    
+}
+.card{
+    .card-header{
+        background-color:$primary-color ;
 
+    }
+    .card-body{
+        background-color:$success-color ;
+        a{
+            font-size: 12px;
+            line-height: 0.5px;
+        color: $muted-color;
+        &:hover{
+            color:$primary-color ;
+         }
+       }
+
+     }
+    
 }
 
 

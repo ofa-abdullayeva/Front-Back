@@ -29,7 +29,6 @@
         .navbar-nav{
             
             .nav-item{
-                
                 a{
                     font-size: 13px;
                     padding: 21px 17px;
@@ -37,10 +36,8 @@
                     margin: 0px;
                     font-weight: 600;
                     transition: 3s ease;
-                    color: $danger-color;
-                    &:hover{
-                        color: $primary-color;
-                    }
+                    
+                   
                 }
             }
         }
