@@ -9,7 +9,7 @@ Python araşdırma sualları
 
    -1-compiler Butun proqrami oxuyur sonra onu butovlukde icra edir,interpreter ise addim adim oxuyur ve icra edir
    -2-Compiler adeten menbe kodu teyin etmek ucun cox vaxt aparir,amma umumi icra muddeti interpretere nisbeten daha suretlidir
-   -3-compiler dillerde adim adim oxuyur her hansi setirde sehv varsa onu gosterir,interpreterlerde sehv olarsa kodlari oxumayacaq
+   -3-interpreter dillerde adim adim oxuyur her hansi setirde sehv varsa onu gosterir,compiler dillerde sehv olarsa kodlari oxumayacaq
 
 
 -3-Python data tipləri hansılardır? Hər biri haqqında qısa izahat verin
@@ -81,7 +81,7 @@ Python araşdırma sualları
        -Ne ucun istifade olunur?
            -Daha az kod yazmaq üçün
            -Yazdığımız kodlardan dəfələrlə istifadə edə bilmək üçün,
-           -Daha mütəşəkkil, daha mütəşəkkil bir şəkildə işləyə bilərik.
+           
 
 -12-Python package nədir?
 
