@@ -18,14 +18,17 @@
                    padding-right: 15px;
                    padding-left: 15px;
                    border-right: 1px solid #dee2e6;
-                   &:hover{
-                       color: red;
-                   }
+                   
                 }
+                a:hover{
+                    color: blue;
+                }
+               
             }
         }
         
     }
+   
     .nav-body{
         height: 100px;
         background-color: $success-color ;
@@ -39,7 +42,7 @@
                     letter-spacing: 1px;
                     margin: 0px;
                     font-weight: 600;
-                    transition: 3s ease;
+                    transition: .5s ease;
                     color: $danger-color;
                     &:hover{
                         color: $primary-color;
