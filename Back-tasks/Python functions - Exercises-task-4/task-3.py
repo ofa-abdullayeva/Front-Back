@@ -1,0 +1,1 @@
+# Siyahıdakı bütün rəqəmləri çoxaltmaq üçün bir Python funksiyası yazın

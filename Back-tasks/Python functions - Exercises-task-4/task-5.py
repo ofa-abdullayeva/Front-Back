@@ -1,0 +1,1 @@
+# Bir ədədin faktorialını (mənfi olmayan tam ədədi) hesablamaq üçün Python funksiyası yazın. Funksiya nömrəni arqument kimi qəbul edir
