@@ -65,6 +65,10 @@ a {
   border-right: 1px solid #dee2e6;
 }
 
+#nav .nav-header .nav-link li a:hover {
+  color: blue;
+}
+
 #nav .nav-body {
   height: 100px;
   background-color: #F1F1F1;
@@ -76,8 +80,8 @@ a {
   letter-spacing: 1px;
   margin: 0px;
   font-weight: 600;
-  -webkit-transition: 3s ease;
-  transition: 3s ease;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
   color: #222222;
 }
 
